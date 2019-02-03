@@ -5,14 +5,34 @@
 
 body{
     margin: 0 auto;
-    background-color: #445463;
+    background-color: #855756;
     font-family: 'Patrick Hand SC', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
 }
 
 /* Header Styles */
 #header-component{
     font-family: 'Rock Salt', cursive;
     text-align: center;
+}
+
+.link{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #A9A695;
+    font-size: 1.6em;
+}
+
+.link:last-child{
+    margin-right: 0;
+}
+
+.link:hover{
+    color: #445463;
 }
 
 /* Main Styles*/
