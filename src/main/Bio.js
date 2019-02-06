@@ -1,11 +1,11 @@
 import React from "react";
 
-function Events() {
+function Bio() {
     return (
         <div>
-            Events
+            Bio
         </div>
     )
 }
 
-export default Events;
+export default Bio;
