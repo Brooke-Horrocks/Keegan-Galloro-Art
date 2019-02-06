@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from './Home';
 import Art from './Art';
-import Events from './Events';
+import Bio from './Bio';
 import Contact from './Contact';
 
 function MainContainer() {
@@ -12,7 +12,7 @@ function MainContainer() {
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/art" component={Art}/>
-                <Route path="/events" component={Events}/>
+                <Route path="/bio" component={Bio}/>
                 <Route path="/contact" component={Contact}/>
             </Switch>
         </div>
