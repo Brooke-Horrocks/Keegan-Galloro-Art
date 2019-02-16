@@ -22,9 +22,10 @@ function NavBar() {
                 </Button>
             </div>
             <div className="page-navbar">
-                <Link class="link" to="/art">PORTFOLIO</Link>
-                <Link class="link" to="/bio">BIO</Link>
-                <Link class="link" to="/contact">CONTACT</Link>
+                <Link className="link" to="/art">PORTFOLIO</Link>
+                <Link className="link" to="/bio">BIO</Link>
+                <Link className="link" to="/contact">CONTACT</Link>
+                <Link className="link" to="/services">SERVICES</Link>
             </div>
         </nav>
     )
